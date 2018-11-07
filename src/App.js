@@ -21,7 +21,7 @@ class App extends Component {
             <Route exact path={screens.Home.path} component={Home} />
             <Route path={screens.Projects.path} component={Projects} />
             <Route path={screens.Contact.path} component={Contact} />
-            <Route path={screens.Todo.path} component={Todo} />
+            <Route path={"/secretTodoPage/"} component={Todo} />
             <Footer />
           </div>
         </Router>
