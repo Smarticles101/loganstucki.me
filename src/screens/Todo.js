@@ -4,7 +4,7 @@ import Header from '../components/Header.js';
 import Section from '../components/Section.js';
 import ScreenData from '../ScreenData.js';
 
-const title = ScreenData.Todo.title;
+const title = "Todo";
 
 export default class Todo extends Component {
 
