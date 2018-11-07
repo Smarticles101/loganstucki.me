@@ -11,8 +11,8 @@ export default {
         title: "Contact",
         path: "/contact"
     },
-    Todo: {
+    /*Todo: {
         title: "Todo",
         path: "/secretTodoList"
-    }
+    }*/
 }
