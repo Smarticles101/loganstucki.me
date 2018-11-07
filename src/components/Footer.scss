@@ -1,0 +1,30 @@
+@import '../palette.scss';
+
+footer {
+  color: $color5;
+  background-color: $color2;
+  min-height: 10vh;
+  padding: 1vw;
+  font-size: 1em;
+  flex-shrink: 0;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icon {
+    max-width: 30px;
+    max-height: 30px;
+    padding: 1px;
+    margin: 5px;
+}
+
+.social {
+    flex: 1;
+}
+
+.other {
+    flex: 1;
+}

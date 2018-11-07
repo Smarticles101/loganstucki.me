@@ -1,0 +1,20 @@
+@import './palette.scss';
+
+.App {
+  text-align: center;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-logo {
+  height: 50vh;
+}
+
+.screen {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 0 auto;
+}
